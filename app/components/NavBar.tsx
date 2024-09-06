@@ -28,7 +28,7 @@ export default function NavBar() {
                 <Link href='/home' className="w-32">
                     <Image src={NetflixLogo} alt="netflix-logo" priority />
                 </Link>
-                <ul className=" lg:flex gap-x-4 ml-14">
+                <ul className=" lg:flex gap-x-4 ml-14 hidden">
                     {links.map((link, idx) => (
                         <div key={idx}>
                             {pathName === link.href ? (

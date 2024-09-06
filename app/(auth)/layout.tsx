@@ -9,8 +9,8 @@ const AuthLayout = ({ children }: { children: ReactNode }) => {
   return (
     <div className="relative flex h-screen w-screen flex-col bg-black md:items-center md:justify-center md:bg-transparent">
       <Image src={NetflixBg} alt="bg-image" className="hidden sm:flex sm:object-cover -z-10 brightness-50" priority fill />
-      {children}
       <Image src={Logo} alt="logo" className="absolute object-contain left-4 top-4 md:left-10 md:top-6" height={120} width={120} priority />
+      {children}
     </div>
   );
 };
