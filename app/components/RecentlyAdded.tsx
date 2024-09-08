@@ -28,9 +28,10 @@ export default async function RecentlyAdded() {
                     <Image 
                         src={movie.imageString} 
                         alt="Movie" 
-                        className="rounded-sm absolute w-full h-full" 
+                        className="rounded-sm absolute w-full h-full object-cover" 
                         width={500} 
-                        height={400} 
+                        height={400}
+                         
                     />
                 </div>
             ))}
