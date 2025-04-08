@@ -11,7 +11,7 @@ export default function UserNav() {
             <DropdownMenuTrigger asChild>
                 <Button variant="ghost" className=" relative h-10 w-10 rounded-sm">
                     <Avatar className=" h-10 w-10 rounded-sm">
-                        <AvatarImage src="https://xgivntnhysmzgatrzsyl.supabase.co/storage/v1/object/public/user-image//avatar.png" />
+                        <AvatarImage src="https://cybbmaffzpefjilvvatr.supabase.co/storage/v1/object/public/user-image//avatar.png" />
                         <AvatarFallback className="rounded-sm">Akash</AvatarFallback>
                     </Avatar>
                 </Button>
