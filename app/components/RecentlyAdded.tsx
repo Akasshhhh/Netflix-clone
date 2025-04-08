@@ -35,7 +35,7 @@ export default async function RecentlyAdded() {
     const userId = session?.user?.email as string
     const data = await getData(userId);
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-8 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-6 gap-6">
             {data.map((movie) => (
                 <div key={movie.id} className="relative h-48">
                     <Image
